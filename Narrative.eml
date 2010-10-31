@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/build"/>
+		<excludeFolder url="file://$MODULE_DIR$/bin"/>
+	</contentEntry>
+	<lib name="hamcrest-all-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/hamcrest-all-1.2.jar!/"/>
+	</lib>
+	<lib name="jmock-2.6.0-RC1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jmock-2.6.0-RC1.jar!/"/>
+	</lib>
+	<lib name="junit-dep-4.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/junit-dep-4.5.jar!/"/>
+	</lib>
+	<lib name="jmock-junit4-2.6.0-RC1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jmock-junit4-2.6.0-RC1.jar!/"/>
+	</lib>
+</component>
