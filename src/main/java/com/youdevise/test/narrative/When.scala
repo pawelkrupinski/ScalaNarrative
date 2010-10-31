@@ -4,7 +4,7 @@ class When[T](val actor: Actor[T]) {
 
   def and[S](actor: Actor[S]): When[S] = When(actor)
 
-  def attempts_to(action: (T, Stash) => Unit): When[T] = {
+  def attempts_to(action: Action[T]): When[T] = {
     actor.perform(action)
     this
   }
